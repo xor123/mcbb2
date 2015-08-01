@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MCB Business</string>
+    <string name="title_activity_main">МКБ Бизнес</string>
+
+    <string name="title_activity_login_screen">loginScreen</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="navigation_drawer_open">Navigation drawer opened</string>
+    <string name="navigation_drawer_close">Navigation drawer closed</string>
+
+    <string-array name="drawer_menu_items">
+        <item> item 1</item>
+        <item> item 2</item>
+        <item> item 3</item>
+    </string-array>
+
+</resources>

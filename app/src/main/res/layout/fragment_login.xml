@@ -1,0 +1,105 @@
+<LinearLayout
+    android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dvs.mcbb2.LoginFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight ="@dimen/activity_horizontal_margin"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/mcb_logo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Карта VISA Gold МКБ-Трансаэро вошла в тройку лучших кредитных карт"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/banlomat"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:paddingTop="32sp"
+            android:drawablePadding="0sp"
+            android:text="Банкоматы"
+            android:textAllCaps="false"
+            android:textStyle="normal"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/terminal"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:paddingTop="32sp"
+            android:drawablePadding="0sp"
+            android:text="Терминалы"
+            android:textAllCaps="false"
+            android:textStyle="normal"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/otdelenie"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:paddingTop="32sp"
+            android:drawablePadding="0sp"
+            android:text="Отделения"
+            android:textAllCaps="false"
+            android:textStyle="normal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+    </LinearLayout>
+
+</LinearLayout>
